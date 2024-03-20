@@ -1,0 +1,1 @@
+watch -n 20 'mosquitto_pub -h oz.urawizard.com -p 1883 -t helsuit/sleeper-service/sos -m "START `date && iwconfig && whoami && uname -a` || message: hello from sleeper-service || FallenPine: estimated location: home END"'
